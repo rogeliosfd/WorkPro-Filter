@@ -1,0 +1,207 @@
+@font-face {
+    font-family:Block;
+    src:url(https://irp-cdn.multiscreensite.com/fa57b313/files/uploaded/BlockFont.otf);
+}
+
+@font-face {
+    font-family:Newtow;
+    src:url(https://irp-cdn.multiscreensite.com/fa57b313/files/uploaded/Newtowfont.otf);
+  }
+
+.wpProductMainContainer {
+    display: flex;
+    position: relative;
+    box-sizing: border-box;
+    flex-flow: row wrap;
+    width: 100%;
+    height: auto;
+}
+
+.wpProductFilter {
+    display: block;
+    position: relative;
+    box-sizing: border-box;
+    width: 25%;
+    height: auto;
+    padding: 10px;
+}
+
+.wpProductFilterTitle {
+    display: block;
+    position: relative;
+    box-sizing: border-box;
+    font: bold 26px 'Open Sans', sans-serif;
+    text-transform: uppercase;
+}
+
+.wpProductCategory {
+    display: block;
+    position: relative;
+    box-sizing: border-box;
+    padding: 5px 0;
+}
+
+.wpProductCatTitle {
+    display: block;
+    position: relative;
+    box-sizing: border-box;
+    font: bold 16px 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    padding: 5px 0 5px 5px;
+    background-color: #C9C9C9;
+}
+
+.wpProductSubCategory {
+    display: flex;
+    position: relative;
+    box-sizing: border-box;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 5px;
+}
+
+.wpSubCat {
+    display: block;
+    position: relative;
+    box-sizing: border-box;
+    transition: .15s ease-in-out;
+    cursor: pointer;
+}
+
+.wpProductSubCategory .wpSubCat.activeCat {
+    font-weight: bold;
+    color: #ED1C24;
+}
+
+.wpSubCat.hoverCat {
+    font-weight: bold;
+    color: #012772;
+}
+
+.wpProductSubCategory span {
+    font: normal 14px 'Open Sans', sans-serif;
+    padding: 2.5px 0;
+}
+
+.wpProductShowcase {
+    display: block;
+    position: relative;
+    box-sizing: border-box;
+    width: 75%;
+    height: auto;
+}
+
+.wpProductBannerImg {
+    display: block;
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+    height: 350px;
+    background-image: url('Product Category Images/Striking-Tools.jpg');
+    background-size: 1500px;
+    background-repeat: no-repeat;
+    background-position: 45% 70%;
+}
+
+.wpProductBannerImg img {
+    display: block;
+    position: absolute;
+    box-sizing: border-box;
+    width: 200px;
+    height: auto;
+    bottom: -25px;
+    right: 20px;
+    filter: drop-shadow(2px 2px 2px rgba(0,0,0,.5));
+}
+
+.wpProductShowcaseMainCat {
+    display: block;
+    position: relative;
+    box-sizing: border-box;
+    font: bold 34px 'Newtow';
+    padding: 10px 0;
+}
+
+.wpProductShowcaseBreadcrumb{
+    display: block;
+    position: relative;
+    box-sizing: border-box;
+    font: bold 20px 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    padding: 0px 0px 20px 0px;
+}
+
+.wpProductShowcaseSubCat{    
+    display: block;
+    position: relative;
+    box-sizing: border-box;
+    font: bold 24px 'Open Sans', sans-serif;
+    text-transform: uppercase;
+}
+
+.wpProductShowcaseSubCat span{  
+    position: relative;
+    box-sizing: border-box;
+    padding: 5px 5px 5px 5px;
+    background-color: #C9C9C9;
+}
+
+.wpProductsContainer{
+    display: block;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.wpProductWrap{
+    display: block;
+    position: relative;
+    box-sizing: border-box;
+    background-color: #EFEFEF;
+    padding: 6px;
+    width: 20%;
+    height: auto;
+    margin-top: 25px;
+}
+
+.wpProductImgWrap{
+    display: block;
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+}
+
+.wpProductImgWrap img{
+    display: block;
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+}
+
+.wpProductImgWrap .end-pro-end{
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 3;
+    width: 50px;
+}
+
+.wpProductName{    
+    display: block;
+    position: relative;
+    box-sizing: border-box;
+    font: bold 14px 'Open Sans', sans-serif;
+    color: #333333;
+    margin-top: 8px;
+}
+
+.wpProductItemNum{
+    display: block;
+    position: relative;
+    box-sizing: border-box;
+    font: normal 14px 'Arial';
+    color: #333333;
+    margin: 8px 0;
+}
