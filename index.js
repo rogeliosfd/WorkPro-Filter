@@ -63,7 +63,7 @@
 
 
 //MAIN PROCESS
-let defaultSubCateg = 'TM';
+let defaultSubCateg = 'FOLDUK';
 
 //Get Raw GSX Data
 const option = {
@@ -90,8 +90,7 @@ try{
 
         //POPULATE PRODUCTS DEPENDING IF THERE IS URL PARAM OR NONE
         let urlCateg = getParameterByName('prodcateg');
-        console.log(urlCateg);
-        if(urlCateg !== null || urlCateg !== undefined){
+        if(urlCateg != null || urlCateg != undefined){
             let fProds = getProds(consObject,urlCateg);//FILTERED PRODUCTS BASED ON URL PARAMS
             createBreadcrumbs(consObject,fProds[0].main_Category)//Create Breadcrumbs
             $('.wpProductShowcaseMainCat').text(fProds[0].main_Category);

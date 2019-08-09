@@ -67,6 +67,9 @@
     box-sizing: border-box;
     transition: .15s ease-in-out;
     cursor: pointer;
+    width:100%;
+    padding:10px 0px;
+    box-sizing:border-box;
 }
 
 .wpProductSubCategory .wpSubCat.activeCat {
@@ -143,25 +146,35 @@
 .wpProductShowcaseSubCat span{  
     position: relative;
     box-sizing: border-box;
-    padding: 5px 5px 5px 5px;
+    padding: 5px;
     background-color: #C9C9C9;
+    box-sizing:border-box;
 }
 
 .wpProductsContainer{
-    display: block;
+    display: flex;
     position: relative;
     box-sizing: border-box;
+    flex-wrap:wrap;
+    width:100%;
+    margin-top:20px;
 }
 
 .wpProductWrap{
     display: block;
     position: relative;
     box-sizing: border-box;
-    background-color: #EFEFEF;
-    padding: 6px;
-    width: 20%;
+    padding: 10px 10px 10px 0px;
+    width: 25%;
     height: auto;
-    margin-top: 25px;
+}
+.innerWpProduct{
+    display: block;
+    position: relative;
+    box-sizing: border-box;
+    background-color: #EFEFEF;
+    width:100%;
+    padding:10px;
 }
 
 .wpProductImgWrap{
@@ -195,6 +208,7 @@
     font: bold 14px 'Open Sans', sans-serif;
     color: #333333;
     margin-top: 8px;
+    min-height:42px;
 }
 
 .wpProductItemNum{
